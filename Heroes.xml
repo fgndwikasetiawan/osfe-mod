@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Beings>
+  <Being beingID="ShisoModTest">
+    <Name>Shiso</Name>
+    <Title>Mod Test</Title>
+    <Tags>Campaign, Shiso</Tags>
+    <Description>Judge, jury, and executioner.</Description>
+    <Flavor>Runs with scissors</Flavor>
+    <Weapon>KunaiCatch</Weapon>
+    <Health>800</Health>
+    <MaxHealth>800</MaxHealth>
+    <Money>20</Money>
+    <MaxMana>2</MaxMana>
+    <BasicCooldown>0.1</BasicCooldown>
+    <ManaRegen>0.5</ManaRegen>
+    <ShuffleTime>2.5</ShuffleTime>
+    <GracePeriod>0.03</GracePeriod>
+    <Defense>0</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Deck>Kunai</Deck>
+    <Deck>CollectRing</Deck>
+    <Deck>MatKunais</Deck>
+    <Deck>ClawTraps</Deck>
+    <Artifacts>Acupuncture</Artifacts>
+    <Artifacts>StickyKunai</Artifacts>
+    <Artifacts>FireKunai</Artifacts>
+    <Stats localGunPointPos="27,30" animName="Shiso" altAnims="ShisoCowboy"
+      splashSprite="ShisoSplash" startingBrands="Slashfik,None"></Stats>
+  </Being>
+</Beings>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Artifacts>
+  <Artifact itemID="StickyKunai">
+    <Name>Sticky Kunai</Name>
+    <Tags>Player</Tags>
+    <App trigger="OnLandHit" effect="Root" target="Hit" value="Kunai" check="SpellID"
+      checkValue="Kunai" amount="0.2"></App>
+    <Description>Kunais apply Root for 0.2 seconds</Description>
+    <Meta>Kunais apply Root for 0.2 seconds</Meta>
+    <Rarity>1</Rarity>
+    <Brand></Brand>
+  </Artifact>
+  <Artifact itemID="FireKunai">
+    <Name>1000-degree Knife</Name>
+    <Tags>Player</Tags>
+    <App trigger="OnLandHit" effect="CastSpell" value="HitFlame" check="SpellID"
+      checkValue="Kunai"></App>
+    <Description>Kunais create flame</Description>
+    <Meta>Kunais create flame</Meta>
+    <Rarity>1</Rarity>
+    <Brand></Brand>
+  </Artifact>
+</Artifacts>
