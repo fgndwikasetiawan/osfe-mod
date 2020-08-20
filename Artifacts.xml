@@ -6,7 +6,6 @@
     <App trigger="OnLandHit" effect="Root" target="Hit" value="Kunai" check="SpellID"
       checkValue="Kunai" amount="0.2"></App>
     <Description>Kunais apply Root for 0.2 seconds</Description>
-    <Meta>Kunais apply Root for 0.2 seconds</Meta>
     <Rarity>1</Rarity>
     <Brand></Brand>
   </Artifact>
@@ -16,8 +15,29 @@
     <App trigger="OnLandHit" effect="CastSpell" value="HitFlame" check="SpellID"
       checkValue="Kunai"></App>
     <Description>Kunais create flame</Description>
-    <Meta>Kunais create flame</Meta>
     <Rarity>1</Rarity>
     <Brand></Brand>
+  </Artifact>
+  <Artifact itemID="BambooSword">
+    <Name>Bamboo Sword</Name>
+    <Tags>Player, Attack</Tags>
+    <App trigger="OnEquip" effect="AtkDmg" amount="1"></App>
+    <Description>+1 Basic Attack</Description>
+    <Rarity>0</Rarity>
+    <Brand></Brand>
+    <Flavor>It's very flexible!</Flavor>
+    <Params></Params>
+  </Artifact>
+  <Artifact itemID="DevilDeal">
+    <Name>Devil Deal</Name>
+    <Tags>Player</Tags>
+    <App trigger="OnEquip" effect="AtkDmg" amount="5"></App>
+    <App trigger="OnEquip" effect="SpellPower" amount="5"></App>
+    <App trigger="OnEquip" effect="Defense" amount="-20"></App>
+    <Description>Lose 20 defense, gain 5 atk power, 5 spell power</Description>
+    <Rarity>1</Rarity>
+    <Brand></Brand>
+    <Flavor>Are you insane???</Flavor>
+    <Params></Params>
   </Artifact>
 </Artifacts>

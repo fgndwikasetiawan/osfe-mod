@@ -1,8 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Beings>
+  <Being beingID="SaffronModTest">
+    <Name>Saffron</Name>
+    <Title>Mod Test A</Title>
+    <Tags>Campaign, Default, Saffron, Attack</Tags>
+    <Description>A military scientist, she's adept with all types of spells.</Description>
+    <Flavor>She brought her tried and true spells</Flavor>
+    <Weapon>CampaignGun</Weapon>
+    <Health>1200</Health>
+    <MaxHealth>1200</MaxHealth>
+    <Money>10</Money>
+    <MaxMana>3</MaxMana>
+    <BasicCooldown>0.1</BasicCooldown>
+    <ManaRegen>0.5</ManaRegen>
+    <ShuffleTime>2.5</ShuffleTime>
+    <GracePeriod>0.03</GracePeriod>
+    <Defense>0</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Deck>Thunder</Deck>
+    <Deck>KineticWave</Deck>
+    <Deck>StepSlash</Deck>
+    <Deck>Frostbolt</Deck>
+    <Artifacts>SubTank</Artifacts>
+    <Artifacts>BambooSword</Artifacts>
+    <Artifacts>DevilDeal</Artifacts>
+    <Stats localGunPointPos="33,34" animName="Saffron"
+      altAnims="SaffronWitch, SaffronLea, SaffronLegacy" splashSprite="SaffronSplash"
+      startingBrands="None,None"></Stats>
+  </Being>
   <Being beingID="ShisoModTest">
     <Name>Shiso</Name>
-    <Title>Mod Test</Title>
+    <Title>Mod Test B</Title>
     <Tags>Campaign, Shiso</Tags>
     <Description>Judge, jury, and executioner.</Description>
     <Flavor>Runs with scissors</Flavor>
