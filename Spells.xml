@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spells>
+  <Spell itemID="KunaiExplosion">
+    <Stats animBlast="Explosion3x3" animShot="" shotSound="explosion_bump" setToGunPoint="None"
+      hitboxHeight="3" hitboxWidth="3"></Stats>
+    <HitAllies></HitAllies>
+    <HitEnemies>true</HitEnemies>
+    <HitSelf>true</HitSelf>
+    <HitStructures>true</HitStructures>
+    <Name>HitExplosion</Name>
+    <Tags>Cpu</Tags>
+    <Action>Multishot</Action>
+    <Description></Description>
+    <Meta>3x3 explosion on last target hit, more dmg</Meta>
+    <Damage>20</Damage>
+    <Shots>1</Shots>
+    <Tiles>1</Tiles>
+    <Location>LastTargetHit</Location>
+    <TimeBetweenShots>0</TimeBetweenShots>
+    <ShotVelocity>0</ShotVelocity>
+    <ShotDuration>0.1</ShotDuration>
+    <ShotDelay></ShotDelay>
+    <CastDelay>0.2</CastDelay>
+    <BlastDuration>0</BlastDuration>
+    <DestroyOnHit>false</DestroyOnHit>
+  </Spell>
+</Spells>

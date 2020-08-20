@@ -40,4 +40,14 @@
     <Flavor>Are you insane???</Flavor>
     <Params></Params>
   </Artifact>
+  <Artifact itemID="ExplosiveKunai">
+    <Name>Explosive Kunai</Name>
+    <Tags>Player</Tags>
+    <App trigger="OnLandHit" effect="CastSpell" target="Hit" value="KunaiExplosion" check="SpellID"
+      checkValue="Kunai" amount="1"></App>
+    <Description>Kunais explode on hit dealing 20 damage all around.</Description>
+    <Rarity>2</Rarity>
+    <Brand></Brand>
+    <Params></Params>
+  </Artifact>
 </Artifacts>

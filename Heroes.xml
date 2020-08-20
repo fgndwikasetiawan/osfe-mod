@@ -49,9 +49,9 @@
     <Deck>CollectRing</Deck>
     <Deck>MatKunais</Deck>
     <Deck>ClawTraps</Deck>
-    <Artifacts>Acupuncture</Artifacts>
-    <Artifacts>StickyKunai</Artifacts>
     <Artifacts>FireKunai</Artifacts>
+    <Artifacts>StickyKunai</Artifacts>
+    <Artifacts>ExplosiveKunai</Artifacts>
     <Stats localGunPointPos="27,30" animName="Shiso" altAnims="ShisoCowboy"
       splashSprite="ShisoSplash" startingBrands="Slashfik,None"></Stats>
   </Being>
